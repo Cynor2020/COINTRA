@@ -18,16 +18,16 @@ B.Tech – **Artificial Intelligence & Data Science**
 # 🌌 **Screenshots (Replace Image URLs)**
 
 ### 🖥️ Dashboard UI  
-![Dashboard](YOUR_IMAGE_URL_HERE)
+![Dashboard](https://github.com/Cynor2020/COINTRA/blob/main/img/Screenshot%202025-11-21%20212410.png?raw=true)
 
 ### 🤖 AI Prediction Engine  
-![Prediction](YOUR_IMAGE_URL_HERE)
+![Prediction](https://github.com/Cynor2020/COINTRA/blob/main/img/Screenshot%202025-11-24%20231414.png?raw=true)
 
 ### 🔔 Smart Web-Push Alerts  
-![Alerts](YOUR_IMAGE_URL_HERE)
+![Alerts](https://github.com/Cynor2020/COINTRA/blob/main/img/Screenshot%202025-11-21%20212520.png?raw=true)
 
-### 💬 AI Chat Assistant  
-![AI Chat](YOUR_IMAGE_URL_HERE)
+### 💬 Coin Real Time Details  
+![AI Chat](https://github.com/Cynor2020/COINTRA/blob/main/img/Screenshot%202025-11-24%20231726.png?raw=true)
 
 ---
 
@@ -242,8 +242,7 @@ Full Stack & AI Developer
 Sanjivani University
 Department of Artificial Intelligence & Data Science
 
-LinkedIn: *add link*
-Portfolio: *add link*
+LinkedIn: *https://www.linkedin.com/in/sarthak-gadakh/*
 
 ---
 
