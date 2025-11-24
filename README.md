@@ -4,7 +4,7 @@
 # ⚡🚀 **COINTRA – AI-Powered Crypto Intelligence**
 ### _Real-time Analytics • AI Predictions • Smart Alerts • AI Chat • Risk Engine_
 
-![Banner](YOUR_IMAGE_URL_HERE)
+![Banner]([YOUR_IMAGE_URL_HERE](https://github.com/Cynor2020/COINTRA/blob/main/img/Screenshot%202025-11-21%20212555.png?raw=true))
 
 **Developed by:**  
 ### 👨‍💻 *Sarthak Gadakh*  
