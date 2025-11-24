@@ -1,189 +1,259 @@
+
 <div align="center">
 
-# 🚀 **COINTRA**
-### ⚡ *AI-Powered Crypto Market Analytics Platform*  
-📈 Real-time Trends • 🤖 AI Predictions • ⚠️ Risk Scoring • 🔔 Smart Alerts • 💬 AI Chat Assistant
+# ⚡🚀 **COINTRA – AI-Powered Crypto Intelligence**
+### _Real-time Analytics • AI Predictions • Smart Alerts • AI Chat • Risk Engine_
 
 ![Banner](YOUR_IMAGE_URL_HERE)
+
+**Developed by:**  
+### 👨‍💻 *Sarthak Gadakh*  
+B.Tech – **Artificial Intelligence & Data Science**  
+**Sanjivani University**
 
 </div>
 
 ---
 
-# 🔥 **Overview**
+# 🌌 **Screenshots (Replace Image URLs)**
 
-**COINTRA** is an advanced **AI-based crypto analytics platform** designed to help users understand  
-market behavior, predict volatility, estimate risk, and get smart alerts before critical movements.
+### 🖥️ Dashboard UI  
+![Dashboard](YOUR_IMAGE_URL_HERE)
 
-COINTRA uses:
-- AI Up/Down probability  
-- Risk scoring using historical data  
-- Real-time WebSocket data  
-- Smart browser push alerts  
-- Interactive crypto chat assistant  
-- 1-day trial + ad-based unlock system  
-- Complete admin analytics system  
+### 🤖 AI Prediction Engine  
+![Prediction](YOUR_IMAGE_URL_HERE)
 
-Developed entirely by:
+### 🔔 Smart Web-Push Alerts  
+![Alerts](YOUR_IMAGE_URL_HERE)
 
-👨‍💻 **Sarthak Gadakh**  
-B.Tech — Artificial Intelligence & Data Science  
-Sanjivani University
+### 💬 AI Chat Assistant  
+![AI Chat](YOUR_IMAGE_URL_HERE)
 
 ---
 
-# 🧩 **Problem Statement**
+# 🧠 **Tech Stack – Built For Speed & AI Power**
 
-Most crypto users:
+## 🎨 Frontend (UI Layer)
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- 📊 Recharts  
+- 🔔 Service Worker (Web Push Notifications)
 
-- Don’t understand technical indicators  
-- Don’t know how to calculate risk  
-- Miss major market spikes and crashes  
-- Can’t track data 24×7  
-- Don’t know when to buy/sell  
-- Have no trusted AI-based assistant  
+## 🧩 Backend (Core Engine)
+- 🟦 Node.js + Express  
+- 🔐 JWT Authentication  
+- 📡 web-push (VAPID)  
+- 💳 Razorpay Payment API  
 
----
+## 🤖 AI Engine (Prediction Brain)
+- 🐍 Python  
+- ⚡ FastAPI  
+- 🌲 LightGBM Model  
+- 🔮 LSTM (Future Upgrade – Sequence Model)
 
-# 🎯 **Our Solution — COINTRA**
+## 🗄 Database Layer
+- 🐘 PostgreSQL  
+- 🚀 Redis Cache
 
-COINTRA solves this with:
-
-- ✔ Real-time market monitoring  
-- ✔ AI Up/Down prediction model  
-- ✔ Risk score (Low / Medium / High)  
-- ✔ Smart web-push alerts (browser notification)  
-- ✔ AI-powered chat assistant  
-- ✔ Admin dashboard for full control  
-- ✔ Ads + subscriptions for monetization  
-
----
-
-# 🌟 **Core Features**
-
-## 🔥 1) Real-Time Market Data  
-- Binance WebSocket live stream  
-- Price, 24h change, volume  
-- Top gainers / losers section  
-
-## 🤖 2) AI Model Predictions  
-- Up% probability  
-- Down% probability  
-- Volatility-based risk classification  
-- Explanation: "Why price may rise / fall?"  
-
-## ⚠️ 3) AI-Based Risk Scoring  
-- Historical volatility  
-- Drawdown  
-- Volume spikes  
-- EMA/RSI/MACD trends  
-
-## 🔔 4) Smart Web Push Alerts  
-- Price cross alerts  
-- % change alerts  
-- Volume surge alerts  
-- Market crash alerts  
-- Alerts run even with browser closed  
-
-## 💬 5) AI Chat Assistant (Custom Mini-LLM)  
-Ask anything like:
-
-- “BTC badhega kya?”  
-- “Risk high kyu dikh raha hai?”  
-- “ETH ka trend kya hai?”  
-- “Kal market up hoga ya down?”
-
-Chat assistant uses:
-- Your predictive AI outputs  
-- Market conditions  
-- Historical patterns  
-
-## 🧩 6) User System  
-- Signup/Login  
-- Watchlist  
-- Alert limits  
-- 1-day trial  
-- Ads unlock up to 6 days  
-
-## 💳 7) Monetization  
-- Premium subscription  
-- Razorpay payments  
-- Ads: rewarded + banner + native  
-
-## 🛠 8) Admin Dashboard  
-- Users management  
-- Alerts monitoring  
-- AI logs  
-- System analytics  
-- Ads & revenue analytics  
+## ☁ Infra / DevOps
+- 🖥 VPS (Ubuntu Server)  
+- 🔁 PM2 Process Manager  
+- 🌐 NGINX Reverse Proxy  
+- 🔒 SSL (Let’s Encrypt)
 
 ---
 
-# 🧠 **AI Model Details**
-
-## 🎯 What model we use?
-We use a **hybrid dual-engine AI**:
-
-### 1️⃣ **LightGBM (Tabular Model)**  
-- Fast  
-- Perfect for technical indicators  
-- Excellent probability stability  
-
-### 2️⃣ **LSTM / 1D-CNN (Sequence Model)** *(planned)*  
-- Captures time patterns  
-- Detects rise/fall momentum  
-
-### 3️⃣ **Stacked Meta Model**  
-Final output:  
-- Up probability (%)  
-- Down probability (%)  
-- Risk Level  
-- AI Explanation  
-
----
-
-# 📊 **AI Features Input**
-
-We use:
-
-- OHLC data  
-- Volume  
-- EMA 5 / 12 / 26  
-- RSI  
-- MACD  
-- Volatility  
-- Rolling Std  
-- Momentum  
-- Orderbook gaps (if available)  
-- Sentiment (optional)  
-
----
-
-# 🏗 **System Architecture**
+# 📁 **Folder Structure (Clean & Modular)**
 
 ```text
-    ┌────────────────────────┐
-    │   Binance WebSocket    │
-    └────────────┬───────────┘
-                 │ Live Data
-                 ▼
-        ┌─────────────────┐
-        │ Data Processor  │
-        └──────┬──────────┘
-               │ Features
-               ▼
-     ┌──────────────────────┐
-     │  AI Engine (Python)  │
-     │ LightGBM + LSTM (hybrid)
-     └─────────┬────────────┘
-               │ Predictions
-               ▼
-    ┌──────────────────────────┐
-    │  Node.js Backend (API)   │
-    │  Alerts + Authentication │
-    └──────────┬──────────────┘
-               │ Web Push
-               ▼
-    ┌──────────────────────────┐
-    │ React Frontend / UI      │
-    └──────────────────────────┘
+cointra/
+│
+├─ frontend/
+│  ├─ src/
+│  │  ├─ components/     # Reusable UI blocks
+│  │  ├─ pages/          # Main views
+│  │  ├─ hooks/          # Custom hooks
+│  │  ├─ services/       # API calls, push manager
+│  │  └─ assets/         # Images, logos
+│  └─ public/
+│
+├─ backend/
+│  ├─ src/
+│  │  ├─ controllers/    # Main logic
+│  │  ├─ routes/         # API endpoints
+│  │  ├─ models/         # DB models
+│  │  ├─ middleware/     # JWT, Auth, Security
+│  │  └─ utils/          # Helper functions
+│  └─ config/            # ENV configs
+│
+├─ ai-engine/
+│  ├─ models/            # ML models
+│  ├─ notebooks/         # Training notebooks
+│  ├─ preprocess/        # Feature engineering
+│  └─ app.py             # FastAPI server
+│
+└─ README.md
+````
+
+---
+
+# 🧬 **System Architecture – AI + Realtime + Alerts**
+
+```ascii
+    ┌───────────────────────────┐
+    │     Binance WebSocket     │
+    └─────────────┬────────────┘
+                  │ Live Market Stream
+                  ▼
+        ┌───────────────────────────┐
+        │     Data Processor         │
+        └────────────┬──────────────┘
+                     │ Technical Indicators / Features
+                     ▼
+     ┌──────────────────────────────────────────┐
+     │           AI Engine (Python)             │
+     │   LightGBM + LSTM Hybrid (Future)        │
+     └────────────────────┬─────────────────────┘
+                          │ Up% / Down% / Risk
+                          ▼
+    ┌────────────────────────────────────────────┐
+    │        Node.js Backend (API Layer)         │
+    │  Auth • Alerts • Payments • User System    │
+    └───────────────────────┬────────────────────┘
+                            │ Push Notifications
+                            ▼
+    ┌────────────────────────────────────────────┐
+    │           React Frontend / UI              │
+    └────────────────────────────────────────────┘
+```
+
+---
+
+# ⚙️ **Setup & Installation (Developer Friendly)**
+
+## 1️⃣ Clone Project
+
+```bash
+git clone https://github.com/yourusername/cointra.git
+cd cointra
+```
+
+---
+
+## 2️⃣ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 3️⃣ Backend Setup
+
+### Add `.env`:
+
+```env
+PORT=4000
+DB_URL=postgres://user:pass@localhost:5432/cointra
+JWT_SECRET=yourSecretKey
+VAPID_PUBLIC_KEY=yourVapidPublicKey
+VAPID_PRIVATE_KEY=yourVapidPrivateKey
+RAZORPAY_KEY_ID=yourKey
+RAZORPAY_KEY_SECRET=yourKeySecret
+```
+
+### Run backend:
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 4️⃣ AI Engine Setup
+
+```bash
+cd ai-engine
+pip install -r requirements.txt
+uvicorn app:app --reload --port 5001
+```
+
+---
+
+# 💰 **Monetization Model (Business Plan)**
+
+## ✔ Free Access
+
+* 1-day full access
+* Watch ads = unlock 6 days
+
+## ✔ Ad Revenue
+
+* Banner Ads
+* Native Ads
+* Rewarded Ads (High CPM)
+
+## ✔ Premium Plans
+
+| Plan           | Price | Features                      |
+| -------------- | ----- | ----------------------------- |
+| **Monthly**    | ₹299  | Unlimited Alerts              |
+| **Yearly**     | ₹1999 | Full Access                   |
+| **PRO Yearly** | ₹3499 | AI Insights + Priority Alerts |
+
+---
+
+# 🛡 **Security (Enterprise Grade)**
+
+* 🔒 HTTPS SSL
+* 🔐 JWT Authentication
+* 🧂 Bcrypt password hashing
+* 🛡 SQL Injection protection
+* ☁ Cloudflare DDoS Shield
+* 🔑 Encrypted push notification keys
+* 👨‍💼 Role-based admin access
+* 🚫 API Rate Limiting
+
+---
+
+# 🗺 **Roadmap (Future Vision)**
+
+* [ ] AI Chat Assistant v1
+* [ ] Whale Tracking AI
+* [ ] Sentiment Analyzer (News + X/Twitter)
+* [ ] Auto-Trend Detector
+* [ ] Advanced LSTM Predictor
+* [ ] Mobile App (React Native)
+* [ ] Global Launch
+
+---
+
+# 👨‍💻 Author
+
+## **Sarthak Gadakh**
+
+Founder — **CYNORTECH**
+Full Stack & AI Developer
+
+**🎓 College:**
+Sanjivani University
+Department of Artificial Intelligence & Data Science
+
+LinkedIn: *add link*
+Portfolio: *add link*
+
+---
+
+<div align="center">
+
+# ⭐ **If you like this project, give it a STAR!**
+
+### Built with ❤️, Logic, and AI by **Sarthak Gadakh**
+
+</div>
+```
+
+---
